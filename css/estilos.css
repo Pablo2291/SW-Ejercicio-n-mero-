@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 1px;
+ }
+ 
+ body {
+     background: #F5D49F;
+     color: #080802;
+     font-weight: bold;
+     text-align: center;
+    
+    
+ 
+ }
+form{
+    margin-top: 2rem;
+    
+}
+
+header {
+    height: 120px;
+    background:#99FC09;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 110px;
+}
+
+section{
+    height: 250px;
+    background:#a1c933;
+    margin-top: 1px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 25px;
+}

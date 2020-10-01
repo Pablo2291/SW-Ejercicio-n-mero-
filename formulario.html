@@ -1,0 +1,76 @@
+<!DOCTIPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Formularios</title>
+</head>
+     <link href="css/estilos.css" rel="stylesheet" type="text/css">
+<body>
+  <div id="contenedor">
+    <header>
+     <article>
+           <h1>Formulario</h1>
+     </article>
+    </header>
+  <section>
+    <form name="formulario" method="get" action="formularios.html">
+          <label>Nombre:<input type="text" name="nombre"></label>
+          <label>Apellidos:<input type="text" name="apellidos"></label>
+        <div>  
+          <label>Estado Civil:<input type="text" name="Estado Civil"></label>
+      
+          <label>Edad:</label>
+          <select name="edad" id="listado">
+              <option>1-5</option>
+              <option>6-10</option>
+              <option>11-15</option>
+              <opcion>16-20</opcion>
+              <option>25-35</option>
+              <option>36-50</option>
+              <option>más de 60</option>
+          </select>
+        <div>
+          <label>Sexo:</label>
+          <input type="radio" id="H" name="Sexo" value="1">Hombre
+          <input type="radio" id="H" name="Sexo" value="2">Mujer
+        </div>
+        <div>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            
+            <div class="form-group"> <!-- Pueblo Button -->
+                <label for="Pueblo_id" class="control-label">Pueblo</label>
+                <select class="form-control" id="Pueblo_id">
+                    <option value="AL">J.M.M</option>
+                    <option value="AK">Nueva Loria</option>
+                    <option value="AZ">Naranjal</option>
+                    <option value="AR">Chetumal</option>
+                    <option value="CA">Carrillo Puerto</option>
+                    <option value="CO">Esperanza</option>
+                    <option value="CT">Presumida</option>
+                    <option value="DE">Candelaria</option>
+
+                    
+            </div>
+            
+            <div>
+                <input name="CP" type="text"
+                placeholder="codigo postal" pattern="0-9 {5}" required />
+                </input>
+              
+            </div>
+
+          <input type="submit" value="Enviar">
+
+
+
+    </form>
+  </section>
+
+</body>
+</html>
+
+
+
